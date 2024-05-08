@@ -1,17 +1,24 @@
 /* content */
 
 .content{
-    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.FrontEnd{
+    background-color: black;
+}
+
+.Other{
+    background-color: black;
 }
 
 /* labels */
 
 .labels{
     /* background-color: cadetblue; */
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
 }
@@ -34,19 +41,19 @@
     width: 100%;
     margin: 0 auto;
     padding: 2%;
-    /* display: flex;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: center; */
-    display: grid;
+    justify-content: center;
+    /* display: grid;
     grid-template-columns: repeat(3, 24%);
     row-gap: 20px;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .skill{
     /* background-color: brown; */
-    /* width: 24%;  */
-    margin: 1%;
+    width: 24%; 
+    margin: 3%;
     display: flex;
     flex-direction: column;
     align-items: center;
