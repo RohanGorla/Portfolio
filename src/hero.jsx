@@ -1,5 +1,5 @@
 import "./header.css";
-import profile_image from './assets/profile_image.jpg';
+import profile_image from './profile_image.jpg';
 
 export default function Header() {
   return (
