@@ -1,4 +1,5 @@
 import "./header.css";
+import profile_image from '/profile_image.jpg';
 
 export default function Header() {
   return (
@@ -29,7 +30,7 @@ export default function Header() {
         </div>
         <div className="image">
           <div className="image-background"></div>
-          <img src="../src/assets/profile_image.jpg"></img>
+          <img src={profile_image}></img>
         </div>
       </div>
     </div>
