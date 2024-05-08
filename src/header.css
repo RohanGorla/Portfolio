@@ -25,7 +25,7 @@
 .hero{
     margin-top: 7%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr))
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr))
 }
 
 .title-container{
@@ -63,13 +63,13 @@ h1{
     position: absolute;
     z-index: -1;
     background-color: blueviolet;
-    height: 450px;
-    width: 390px;
+    height: 100%;
+    width: 50%;
     transform: rotate(15deg);
     border-radius: 25%;
 }
 
 .image img{
-    width: 350px;
+    width: 50%;
     border-radius: 5%;
 }
