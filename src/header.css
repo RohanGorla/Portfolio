@@ -1,0 +1,75 @@
+.header{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+/* nav bar styling */
+
+.nav{
+    text-align: end;
+}
+  
+.nav span{
+    padding: 0 1%;
+    cursor: pointer;
+}
+
+.nav span:hover{
+    color: red;
+}
+
+/* hero styling */
+
+.hero{
+    margin-top: 7%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr))
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    margin: 2% 0%;
+}
+
+.title{
+    width: 80%;
+}
+
+h1{
+    font-size: 430%;
+    padding: 3% 0%;
+}
+
+.title h3{
+    font-size: 200%;
+}
+
+/* profile image styling */
+
+.image{
+    margin: 5% 0%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.image-background{
+    position: absolute;
+    z-index: -1;
+    background-color: blueviolet;
+    height: 450px;
+    width: 390px;
+    transform: rotate(15deg);
+    border-radius: 25%;
+}
+
+.image img{
+    width: 350px;
+    border-radius: 5%;
+}
