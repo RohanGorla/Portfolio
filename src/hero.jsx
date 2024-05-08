@@ -4,7 +4,7 @@ import profile_image from './profile_image.jpg';
 export default function Header() {
   return (
     <div className="header">
-      <div>
+      <div className="navBar">
         <nav className="nav">
           <span>Home</span>
           <span>Contact</span>

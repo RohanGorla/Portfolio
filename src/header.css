@@ -1,11 +1,21 @@
 .header{
-    height: 75vh;
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     padding: 2%;
+    /* background-color: blanchedalmond; */
 }
 
 /* nav bar styling */
+
+.navBar{
+    position: relative;
+    z-index: 1;
+    position: sticky;
+    background-color: #242424;
+    top: -1px;
+    padding: 1.2% 0%;
+}
 
 .nav{
     text-align: end;
