@@ -62,7 +62,7 @@ export default function Content() {
       <div className="content Database">
         <div className="labels">
           <div className="skills-label">
-            <h3>General Skills & Tools</h3>
+            <h3>Databases</h3>
             <div className="line"></div>
           </div>
         </div>
