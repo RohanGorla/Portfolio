@@ -1,8 +1,9 @@
+import { forwardRef } from "react";
 import "./footer.css";
 
-export default function Footer() {
+function Footer(props, ref) {
   return (
-    <div className="Footer-main">
+    <div ref={ref} className="Footer-main">
       <div className="Footer">
         <div className="contact">
           <h2>Contact me</h2>
@@ -30,7 +31,11 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <p>created by <span className="name">Rohan Gorla</span></p>
+      <p>
+        created by <span className="name">Rohan Gorla</span>
+      </p>
     </div>
   );
 }
+
+export default forwardRef(Footer);
