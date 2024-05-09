@@ -21,7 +21,7 @@ function App() {
           >
             <span>Contact me</span>
           </a>
-          <a href="" target="_blank">
+          <a>
             <span>Projects</span>
           </a>
           <a href={resume} download="RESUME">
