@@ -10,7 +10,7 @@
     background-color: black;
 }
 
-.Other{
+.Database{
     background-color: black;
 }
 
@@ -61,8 +61,10 @@
 
 .skill img{
     max-width: 40%;
+    border-radius: 10%;
 }
 
 .skill p{
     font-size: clamp(8.5px, 1vw,20px);
+    padding: 2% 0%;
 }
