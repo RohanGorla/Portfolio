@@ -4,22 +4,6 @@ import profile_image from "./profile_image.jpg";
 export default function Header() {
   return (
     <>
-      <div className="navBar">
-        <nav className="nav">
-          <a href="https://rohan-official-portfolio.netlify.app/">
-            <span>Home</span>
-          </a>
-          <a href="" target="_blank">
-            <span>Contact</span>
-          </a>
-          <a href="" target="_blank">
-            <span>Projects</span>
-          </a>
-          <a href="" target="_blank">
-            <span>Resume</span>
-          </a>
-        </nav>
-      </div>
       <div className="header">
         <div className="hero">
           <div className="title-container">
