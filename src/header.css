@@ -9,16 +9,21 @@
 /* nav bar styling */
 
 .navBar{
-    position: relative;
+    width: 100%;
     z-index: 1;
-    position: sticky;
+    position: fixed;
     background-color: #242424;
     top: -1px;
-    padding: 1.2% 0%;
+    padding: 1.5% 5%;
 }
 
 .nav{
     text-align: end;
+}
+
+.nav a{
+    text-decoration: none;
+    color: whitesmoke;
 }
   
 .nav span{

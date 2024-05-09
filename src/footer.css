@@ -1,0 +1,72 @@
+.Footer-main{
+    /* width: 100%; */
+    background-color: black;
+}
+
+.Footer{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.Footer a{
+    text-decoration: none;
+    margin: 0 2%;
+}
+
+.Footer-main p{
+    text-align: center;
+}
+
+.contact{
+    /* background-color: grey; */
+    width: 50%;
+    min-width: 270px;
+    padding: 2%;
+}
+
+.contact h2{
+    text-align: center;
+    font-size: clamp(20px, 5vw + 1px, 40px);
+}
+
+.contact-apps{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+.contact-apps img{
+    width: clamp(25px, 1.5vw + 1rem, 40px);
+    border-radius: 20%;
+    margin: 0 2%;
+}
+
+.work{
+    /* background-color: grey; */
+    width: 50%;
+    min-width: 270px;
+    padding: 2%;
+}
+
+.work h2{
+    text-align: center;
+    font-size: clamp(20px, 5vw + 1px, 40px);
+}
+
+.work-apps{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+.work-apps img{
+    width: clamp(25px, 1.5vw + 1rem, 40px);
+    border-radius: 20%;
+}
+
+.name{
+    color: red;
+}
