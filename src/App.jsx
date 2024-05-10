@@ -1,4 +1,5 @@
 import { useState, useRef } from "react";
+import { Link } from "react-router-dom";
 import "./App.css";
 import Header from "./hero";
 import Content from "./content";
@@ -28,9 +29,9 @@ function App() {
           <a href={resume} download="RESUME">
             <span>Resume</span>
           </a>
-          <a href="../about.html" target="_blank">
+          <Link to="/about" target="_blank">
             <span>About me</span>
-          </a>
+          </Link>
         </nav>
       </div>
       <Header />
