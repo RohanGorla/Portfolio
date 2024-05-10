@@ -24,7 +24,7 @@
 }
 
 .skills-label h3{
-    font-size: clamp(20px, 5vw + 1px, 40px);
+    font-size: clamp(25px, 5vw + 1px, 40px);
 }
 
 /* display */

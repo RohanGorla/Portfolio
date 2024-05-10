@@ -1,38 +1,9 @@
 .header{
-    /* height: 100vh; */
+    /* height: 80vh; */
     display: flex;
     flex-direction: column;
     padding: 2%;
     /* background-color: blanchedalmond; */
-}
-
-/* nav bar styling */
-
-.navBar{
-    width: 100%;
-    z-index: 1;
-    position: fixed;
-    background-color: #242424;
-    top: -1px;
-    padding: 1.5% 5%;
-}
-
-.nav{
-    text-align: end;
-}
-
-.nav a{
-    text-decoration: none;
-    color: whitesmoke;
-}
-  
-.nav span{
-    padding: 0 1%;
-    cursor: pointer;
-}
-
-.nav span:hover{
-    color: red;
 }
 
 /* hero styling */
@@ -57,12 +28,15 @@
 }
 
 h1{
-    font-size: 430%;
+    /* font-size: 430%; */
+    font-size: clamp(40px, 5vw + 5px, 100px);
     padding: 3% 0%;
 }
 
 .title h3{
-    font-size: 200%;
+    /* font-size: 200%; */
+    font-size: clamp(25px, 3vw + 3px, 40px);
+    margin: 3% 0;
 }
 
 /* profile image styling */

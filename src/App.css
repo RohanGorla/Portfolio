@@ -1,8 +1,9 @@
 .navBar{
     width: 100%;
     z-index: 1;
-    position: fixed;
-    background-color: #242424;
+    position: sticky;
+    /* background-color: #242424; */
+    background-color: black;
     top: -1px;
     padding: 1.5% 5%;
 }
@@ -23,4 +24,14 @@
 
 .nav span:hover{
     color: red;
+}
+
+.H-C-seperation{
+    background-color: black;
+    padding: 1.5% 5%;
+}
+
+.seperation{
+    background-color: black;
+    padding: 2% 5%;
 }

@@ -9,6 +9,7 @@ import resume from "./RESUME_2.pdf";
 
 function App() {
   const contactRef = useRef(null);
+  const projectRef = useRef(null);
   return (
     <>
       <div className="navBar">
@@ -18,16 +19,20 @@ function App() {
           </a> */}
           <a
             onClick={() => {
-              contactRef.current?.scrollIntoView({ behavior: "smooth" });
+              projectRef.current?.scrollIntoView({ behavior: "smooth"});
             }}
           >
-            <span>Contact me</span>
-          </a>
-          <a>
             <span>Projects</span>
           </a>
           <a href={resume} download="RESUME">
             <span>Resume</span>
+          </a>
+          <a
+            onClick={() => {
+              contactRef.current?.scrollIntoView({ behavior: "smooth" });
+            }}
+          >
+            <span>Contact me</span>
           </a>
           <Link to="/about" target="_blank">
             <span>About me</span>
@@ -35,7 +40,9 @@ function App() {
         </nav>
       </div>
       <Header />
+      <div className="seperation"></div>
       <Content />
+      <div ref={projectRef} className="seperation"></div>
       <Projects />
       <Footer ref={contactRef} />
     </>

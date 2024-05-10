@@ -18,7 +18,7 @@ export default function Header() {
               <p>
                 With a passion to build websites that are interactive & user
                 friendly and always striving to learn more and get better to
-                stay udated with the current technologies.
+                stay updated with the current technologies.
               </p>
             </div>
           </div>
