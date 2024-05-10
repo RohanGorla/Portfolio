@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./hero";
 import Content from "./content";
 import Footer from "./footer";
+import Projects from "./projects";
 import resume from "./RESUME_2.pdf";
 
 function App() {
@@ -27,10 +28,14 @@ function App() {
           <a href={resume} download="RESUME">
             <span>Resume</span>
           </a>
+          <a href="../about.html" target="_blank">
+            <span>About me</span>
+          </a>
         </nav>
       </div>
       <Header />
       <Content />
+      <Projects />
       <Footer ref={contactRef} />
     </>
   );
