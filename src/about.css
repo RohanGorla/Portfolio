@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    font-size: clamp(33px, 10vw + 4px, 90px);
+}
+
+.about-main{
+    width: 60%;
+    min-width: 350px;
+    margin: 0 auto;
+    font-size: clamp(13px, 2vw + 1px, 22px);
+}
+
+.intro{
+    margin: 5%;
+}
+
+.skills{
+    margin: 5%;
+}
+
+.conclusion{
+    margin: 5%;
+}

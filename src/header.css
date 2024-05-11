@@ -27,7 +27,8 @@
     width: 80%;
 }
 
-h1{
+.title h1{
+    text-align: start;
     /* font-size: 430%; */
     font-size: clamp(40px, 5vw + 5px, 100px);
     padding: 3% 0%;
@@ -37,6 +38,10 @@ h1{
     /* font-size: 200%; */
     font-size: clamp(25px, 3vw + 3px, 40px);
     margin: 3% 0;
+}
+
+.title p{
+    font-size: clamp(12px, 1vw + 5px, 22px);
 }
 
 /* profile image styling */

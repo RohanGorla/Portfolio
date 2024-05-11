@@ -12,8 +12,7 @@ export default function Header() {
                 Hi, I am <span style={{ color: "red" }}>Rohan</span>
               </h1>
               <h3>
-                I'm a <span style={{ color: "red" }}>Frontend</span> Web
-                Developer
+                I'm a <span style={{ color: "red" }}>Web Developer</span>
               </h3>
               <p>
                 With a passion to build websites that are interactive & user
