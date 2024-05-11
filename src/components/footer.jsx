@@ -1,5 +1,5 @@
 import { forwardRef } from "react";
-import "./footer.css";
+import "../styles/footer.css";
 
 function Footer(props, ref) {
   return (

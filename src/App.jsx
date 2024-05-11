@@ -1,10 +1,10 @@
 import { useRef } from "react";
 import { Link } from "react-router-dom";
 import "./App.css";
-import Header from "./hero";
-import Content from "./content";
-import Footer from "./footer";
-import Projects from "./projects";
+import Header from "./components/hero";
+import Content from "./components/content";
+import Footer from "./components/footer";
+import Projects from "./components/projects";
 import resume from "./RESUME_2.pdf";
 
 function App() {

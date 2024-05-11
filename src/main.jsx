@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import App from './App.jsx'
-import About from './about.jsx'
+import About from './components/about.jsx'
 import './index.css'
 
 const router = createBrowserRouter([
