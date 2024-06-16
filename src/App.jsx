@@ -19,7 +19,7 @@ function App() {
           </a> */}
           <a
             onClick={() => {
-              projectRef.current?.scrollIntoView({ behavior: "smooth"});
+              projectRef.current?.scrollIntoView({ behavior: "smooth" });
             }}
           >
             <span>Projects</span>
@@ -40,10 +40,10 @@ function App() {
         </nav>
       </div>
       <Header />
-      <div className="seperation"></div>
-      <Content />
       <div ref={projectRef} className="seperation"></div>
       <Projects />
+      <div className="seperation"></div>
+      <Content />
       <Footer ref={contactRef} />
     </>
   );
