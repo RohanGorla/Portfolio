@@ -23,9 +23,6 @@ function App() {
           <span className="hamburger"></span>
         </div>
         <nav className={showNav ? "nav" : "nav not-visible"}>
-          {/* <a href="https://rohan-official-portfolio.netlify.app/">
-            <span>Home</span>
-          </a> */}
           <a
             className="navbar-links"
             onClick={() => {
