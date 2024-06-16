@@ -5,11 +5,17 @@
     /* background-color: #242424; */
     background-color: black;
     top: -1px;
-    padding: 1.5% 5%;
+    padding: max(1.5%, 20px) 5%;
+}
+
+.hamburger-btn {
+    display: none;
 }
 
 .nav{
+    /* position: relative; */
     text-align: end;
+    /* background-color: rgb(84, 111, 133); */
 }
 
 .nav a{
@@ -17,12 +23,12 @@
     color: whitesmoke;
 }
   
-.nav span{
+.navbar-links span{
     padding: 0 1%;
     cursor: pointer;
 }
 
-.nav span:hover{
+.navbar-links span:hover{
     color: red;
 }
 
@@ -34,4 +40,72 @@
 .seperation{
     background-color: black;
     padding: 2% 5%;
+}
+
+@media (max-width: 600px) {
+    .navBar {
+        padding: 2.5em 0;
+    }
+
+    .hamburger-btn {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 25%;
+        left: 5%;
+        background-color: rgb(48, 45, 45);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    
+    .hamburger {
+        display: block;
+        width: 50%;
+        height: 4px;
+        margin: 18px  auto;
+        background-color: red;
+    }
+    
+    .hamburger::before {
+        display: block;
+        content: '';
+        width: 100%;
+        height: 4px;
+        transform: translateY(-8px);
+        background-color: red;
+    }
+    
+    .hamburger::after {
+        display: block;
+        content: '';
+        width: 100%;
+        height: 4px;
+        transform: translateY(4px);
+        background-color: red;
+    }
+
+    .not-visible {
+        visibility: hidden;
+        height: 0;
+    }
+
+    .nav {
+        padding: 1.5em 0 1em 0;
+        text-align: center;
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-links {
+        /* background-color: brown; */
+        width: 17%;
+        padding: .7em 0;
+    }
 }
