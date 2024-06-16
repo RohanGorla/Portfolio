@@ -37,13 +37,10 @@
     padding: 2% 0;
     margin: 6% 0;
     text-align: center;
-    /* font-size: 28px; */
-    /* font-size: 18px; */
     font-size: clamp(20px, 5vw + 1px, 28px);
 }
 
 .project-description{
-    /* background-color: purple; */
     display: flex;
     align-items: center;
     height: 150px;

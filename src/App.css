@@ -2,7 +2,6 @@
     width: 100%;
     z-index: 1;
     position: sticky;
-    /* background-color: #242424; */
     background-color: black;
     top: -1px;
     padding: max(1.5%, 20px) 5%;
@@ -13,9 +12,7 @@
 }
 
 .nav{
-    /* position: relative; */
     text-align: end;
-    /* background-color: rgb(84, 111, 133); */
 }
 
 .nav a{
@@ -104,8 +101,7 @@
     }
 
     .navbar-links {
-        /* background-color: brown; */
-        width: 17%;
+        width: 100%;
         padding: .7em 0;
     }
 }

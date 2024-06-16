@@ -12,7 +12,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* background-color: grey; */
 }
 
 .Footer a{
@@ -25,7 +24,6 @@
 }
 
 .contact{
-    /* background-color: grey; */
     width: 50%;
     min-width: 270px;
     padding: 2%;
@@ -49,7 +47,6 @@
 }
 
 .work{
-    /* background-color: grey; */
     width: 50%;
     min-width: 270px;
     padding: 2%;

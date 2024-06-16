@@ -17,7 +17,6 @@
 /* labels */
 
 .labels{
-    /* background-color: cadetblue; */
     width: 80%;
     display: flex;
     justify-content: space-around;
@@ -31,27 +30,20 @@
 
 .display{
     width: 100%;
-    /* background-color: cadetblue; */
 }
 
 /* skills-main */
 
 .skills-main{
-    /* background-color:crimson; */
     width: 100%;
     margin: 0 auto;
     padding: 2%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* display: grid;
-    grid-template-columns: repeat(3, 24%);
-    row-gap: 20px;
-    justify-content: center; */
 }
 
 .skill{
-    /* background-color: brown; */
     width: 24%; 
     margin: 2%;
     display: flex;
