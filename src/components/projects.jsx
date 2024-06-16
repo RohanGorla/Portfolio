@@ -22,7 +22,7 @@ function Projects() {
                 className="livesite"
                 onClick={() => {
                   window.open(
-                    "https://rohan-react-weather-api.netlify.app/",
+                    "https://rohan-weather-app.netlify.app/",
                     "_blank"
                   );
                 }}
@@ -33,7 +33,7 @@ function Projects() {
                 className="github-repo"
                 onClick={() => {
                   window.open(
-                    "https://github.com/RohanGorla/React-Weather-API",
+                    "https://github.com/RohanGorla/Weather_App",
                     "_blank"
                   );
                 }}
@@ -81,7 +81,7 @@ function Projects() {
           </div>
           <div className="project-card">
             <div className="project-details">
-              <h4 className="project-title">Project name</h4>
+              <h4 className="project-title">TODO LIST APP</h4>
               <p className="project-description">
                 nnfj sn fjl nfn ncnnnc nnfn dfndn fn fnfn asljn ldnfl ndn nfjsnf
                 jlnf nncn nncn nfnd fn dnf nfnf naslj nldn flndn nfjs nf jln
@@ -89,8 +89,28 @@ function Projects() {
               </p>
             </div>
             <div className="github-livesite-buttons">
-              <button className="livesite">View Site</button>
-              <button className="github-repo">Git Repo</button>
+              <button
+                className="livesite"
+                onClick={() => {
+                  window.open(
+                    "https://personal-todos-app.netlify.app/",
+                    "_blank"
+                  );
+                }}
+              >
+                View Site
+              </button>
+              <button
+                className="github-repo"
+                onClick={() => {
+                  window.open(
+                    "https://github.com/RohanGorla/LISTS_APP",
+                    "_blank"
+                  );
+                }}
+              >
+                Git Repo
+              </button>
             </div>
           </div>
           <div className="project-card">
@@ -141,4 +161,4 @@ function Projects() {
   );
 }
 
-export default forwardRef(Projects)
+export default forwardRef(Projects);

@@ -67,6 +67,7 @@
     padding:4% 2.4%;
 }
 
-.github-livesite-buttons a{
-    
+.github-livesite-buttons button:hover{
+    cursor: pointer;
+    color: red;
 }
