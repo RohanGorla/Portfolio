@@ -5,7 +5,7 @@ import Header from "./components/hero";
 import Content from "./components/content";
 import Footer from "./components/footer";
 import Projects from "./components/projects";
-import resume from "./RESUME_2.pdf";
+import resume from "./ROHAN.pdf";
 
 function App() {
   const contactRef = useRef(null);
@@ -35,7 +35,7 @@ function App() {
           <a
             className="navbar-links"
             href={resume}
-            download="RESUME"
+            download="RESUME-RohanGorla"
             onClick={() => {
               setShowNav(!showNav);
             }}
