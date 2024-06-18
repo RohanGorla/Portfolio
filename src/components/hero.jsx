@@ -1,5 +1,5 @@
 import "../styles/header.css";
-import profile_image from "../images/profile_image.jpg";
+import image_url from "./profile";
 
 export default function Header() {
   return (
@@ -23,7 +23,7 @@ export default function Header() {
           </div>
           <div className="image">
             <div className="image-background"></div>
-            <img src={profile_image}></img>
+            <img src={image_url}></img>
           </div>
         </div>
       </div>
