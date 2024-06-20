@@ -11,10 +11,12 @@ function Projects() {
             <div className="project-details">
               <h4 className="project-title">Weather App</h4>
               <p className="project-description">
-                This is a web app that shows the current weather condition in a
-                particular location. I made this app using react function
-                components. React hook useEffect was used to fetch the data from
-                the API.
+                Built a weather app using React.js to show accurate weather data
+                based on user input. Utilized the "useEffect" hook for API data
+                fetching and an NPM package for location names. Managed user
+                data with "useState" and displayed current conditions and hourly
+                forecasts. Designed to be fully responsive for mobile and
+                desktop devices.
               </p>
             </div>
             <div className="github-livesite-buttons">
@@ -47,10 +49,10 @@ function Projects() {
               <h4 className="project-title">TIC TAC TOE</h4>
               <div className="project-description">
                 <p>
-                  This is a TIC TAC TOE game made with React. It uses react's
-                  useState hook to track changes and render X and O accordingly.
-                  It's a fun game which can be playes by 2 people on the same
-                  device.
+                  Developed a Tic Tac Toe game using React with function-based
+                  components. Implemented player turn tracking and winner
+                  detection using the "useState" hook. Included features for
+                  displaying the winner or a draw and a replay option.
                 </p>
               </div>
             </div>
@@ -83,9 +85,12 @@ function Projects() {
             <div className="project-details">
               <h4 className="project-title">TODO LIST APP</h4>
               <p className="project-description">
-                nnfj sn fjl nfn ncnnnc nnfn dfndn fn fnfn asljn ldnfl ndn nfjsnf
-                jlnf nncn nncn nfnd fn dnf nfnf naslj nldn flndn nfjs nf jln
-                fnncn nncn nfnd fndn fnf nfna sljnl dnfl nd
+                Created a To-Do Lists application in React, enabling users to
+                create multiple lists and items. Implemented user authentication
+                for secure access. Managed state with "useState" and data
+                fetching with "useEffect" from an AWS MySQL database. Employed
+                CRUD operations and ensured a responsive design for both mobile
+                and desktop users.
               </p>
             </div>
             <div className="github-livesite-buttons">
@@ -111,48 +116,6 @@ function Projects() {
               >
                 Git Repo
               </button>
-            </div>
-          </div>
-          <div className="project-card">
-            <div className="project-details">
-              <h4 className="project-title">Project name</h4>
-              <p className="project-description">
-                nnfj sn fjl nfn ncnnnc nnfn dfndn fn fnfn asljn ldnfl ndn nfjsnf
-                jlnf nncn nncn nfnd fn dnf nfnf naslj nldn flndn nfjs nf jln
-                fnncn nncn nfnd fndn fnf nfna sljnl dnfl nd
-              </p>
-            </div>
-            <div className="github-livesite-buttons">
-              <button className="livesite">View Site</button>
-              <button className="github-repo">Git Repo</button>
-            </div>
-          </div>
-          <div className="project-card">
-            <div className="project-details">
-              <h4 className="project-title">Project name</h4>
-              <p className="project-description">
-                nnfj sn fjl nfn ncnnnc nnfn dfndn fn fnfn asljn ldnfl ndn nfjsnf
-                jlnf nncn nncn nfnd fn dnf nfnf naslj nldn flndn nfjs nf jln
-                fnncn nncn nfnd fndn fnf nfna sljnl dnfl nd
-              </p>
-            </div>
-            <div className="github-livesite-buttons">
-              <button className="livesite">View Site</button>
-              <button className="github-repo">Git Repo</button>
-            </div>
-          </div>
-          <div className="project-card">
-            <div className="project-details">
-              <h4 className="project-title">Project name</h4>
-              <p className="project-description">
-                nnfj sn fjl nfn ncnnnc nnfn dfndn fn fnfn asljn ldnfl ndn nfjsnf
-                jlnf nncn nncn nfnd fn dnf nfnf naslj nldn flndn nfjs nf jln
-                fnncn nncn nfnd fndn fnf nfna sljnl dnfl nd
-              </p>
-            </div>
-            <div className="github-livesite-buttons">
-              <button className="livesite">View Site</button>
-              <button className="github-repo">Git Repo</button>
             </div>
           </div>
         </div>
